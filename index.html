@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="utf-8" />
+    <meta viewport="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://the.missing.style/v1.0.8/missing.css"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>High Tide</h1>
+      Sign up to be notified when the next high tide in Eagle Harbor on
+      Bainbridge Island, Washington via SMS. Messages will be sent once per day.
+      <form action="admin.php" method="post">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="Name" />
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="you@email.com"
+        />
+        <input type="submit" name="submit" value="Sign up" />
+      </form>
+    </main>
+  </body>
+</html>
